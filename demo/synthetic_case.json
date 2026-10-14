@@ -1,0 +1,71 @@
+{
+  "case_name": "BLACKBOX synthetic training case",
+  "note": "Fully fabricated packet metadata. No real traffic.",
+  "packets": [
+    {
+      "id": 1,
+      "ts": 0,
+      "src": "10.10.0.5",
+      "dst": "10.10.0.10",
+      "protocol": "TCP",
+      "dst_port": 21
+    },
+    {
+      "id": 2,
+      "ts": 0.15,
+      "src": "10.10.0.5",
+      "dst": "10.10.0.10",
+      "protocol": "TCP",
+      "dst_port": 22
+    },
+    {
+      "id": 3,
+      "ts": 0.28,
+      "src": "10.10.0.5",
+      "dst": "10.10.0.10",
+      "protocol": "TCP",
+      "dst_port": 23
+    },
+    {
+      "id": 4,
+      "ts": 0.4,
+      "src": "10.10.0.5",
+      "dst": "10.10.0.10",
+      "protocol": "TCP",
+      "dst_port": 25
+    },
+    {
+      "id": 5,
+      "ts": 1.1,
+      "src": "10.10.0.8",
+      "dst": "10.10.0.1",
+      "protocol": "DNS"
+    },
+    {
+      "id": 6,
+      "ts": 1.4,
+      "src": "10.10.0.1",
+      "dst": "10.10.0.255",
+      "protocol": "ARP",
+      "claim_ip": "10.10.0.1",
+      "claim_mac": "02:00:00:00:00:01"
+    },
+    {
+      "id": 7,
+      "ts": 2,
+      "src": "10.10.0.9",
+      "dst": "10.10.0.255",
+      "protocol": "ARP",
+      "claim_ip": "10.10.0.1",
+      "claim_mac": "02:00:00:00:00:09"
+    },
+    {
+      "id": 8,
+      "ts": 2.5,
+      "src": "10.10.0.6",
+      "dst": "10.10.0.8",
+      "protocol": "UDP",
+      "dst_port": 53
+    }
+  ]
+}
