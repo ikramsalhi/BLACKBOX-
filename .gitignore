@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.db
+*.sqlite*
+data/
+captures/
+evidence/
+*.pcap
+*.pcapng
+*.log
+.DS_Store
