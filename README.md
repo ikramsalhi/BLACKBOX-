@@ -8,6 +8,7 @@ BLACKBOX is a local-first cybersecurity investigation project built for the **Th
 > **Public preview — limited release.** This repository contains a small, runnable demonstration on *synthetic packet metadata*. It is **not** the complete BLACKBOX application, does not ingest PCAP files, and does not include the private investigation engine or DeepSeek integration.
 
 ## What the broader project aims to do
+d
 
 1. **Import evidence:** organize network captures and associated case metadata.
 2. **Explore the network:** visualize communication patterns, packets, and notable events.
